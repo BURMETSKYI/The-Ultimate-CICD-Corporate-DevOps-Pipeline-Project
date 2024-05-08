@@ -165,7 +165,7 @@ jdbc:h2:mem:shopping_cart_db
 
 In `/src/main/resources/application.properties` file it is possible to change both
 web interface url path, as well as the datasource URL.
-
+```bash
 # Kubernetes setup
 ## On Master and Worker
 $ sudo apt-get update -y
@@ -176,4 +176,4 @@ $ echo "deb HTTP://apt.kubernetes.io/ kubernetes-xenial main" >/etc/apt/sources.
 ## 
 $ sudo apt install kubeadm=1.20.0-00 kubectl=1.20.0-00 kubelet=1.20.0-00 -y
 $ sudo apt install kubeadm kubelet kubectl
-
+```
